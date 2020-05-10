@@ -11,8 +11,8 @@ function! s:SetGlobalOptDefault(opt, val) "{{{1
 endfunction
 
 " Set Global Defaults {{{1
-call s:SetGlobalOptDefault('vimpipe_invoke_map', '<LocalLeader>r')
-call s:SetGlobalOptDefault('vimpipe_close_map', '<LocalLeader>p')
+call s:SetGlobalOptDefault('vimpipe_invoke_map', '<Leader>r')
+call s:SetGlobalOptDefault('vimpipe_close_map', '<Leader>p')
 call s:SetGlobalOptDefault('vimpipe_silent', 0)
 
 function! VimPipe() range "{{{1
